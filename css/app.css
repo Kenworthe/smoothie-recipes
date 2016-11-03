@@ -1,0 +1,60 @@
+body {
+  	background: lightgreen;
+}
+
+section.jumbotron {
+	background-image: url("../images/banana-hero.jpg");
+	background-color: lightyellow;
+	background-size: cover;
+	margin-bottom: 0px;
+	padding: 54px 0px;
+	color: black;
+}
+
+header {
+	background: white;
+}
+header h1{
+	font-family: "Open Sans", sans-serif;
+	margin-top:0;
+	display: inline;
+	float:left;
+}
+nav {
+	background:white;
+}
+
+nav a{
+	font-size: 1.3em;
+}
+.nav-pills > li > a{
+	border-radius:0px;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
+	color: #f2f7ff;
+    background-color: lightblue;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #f2f7ff;
+}
+section.recipes.row.container-fluid{
+	margin:0px;
+	padding:0px;
+}
+
+article.recipe{
+	background-color:lightblue;
+	border: 2px white solid;
+	height: 270px;
+}
+
+article:hover{
+
+}
+
+footer{
+	font-size: 10px;
+	align-self: flex-end;
+	position: absolute;
+}

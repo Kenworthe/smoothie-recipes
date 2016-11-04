@@ -26,8 +26,8 @@ section.jumbotron {
 	margin: 0px;
 	padding: 100px 0px;
 	background: linear-gradient(
-		rgba(255,191,0,.4),
-		rgba(255,191,0,.4)), 
+		rgba(0,0,0,.5),
+		rgba(0,0,0,.5)), 
 		url("../images/banana-hero.jpg");
 	background-color: #FFFABF;
 	background-size: cover;

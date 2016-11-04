@@ -1,60 +1,96 @@
 body {
-  	background: lightgreen;
+  	background:#FFBF00;
 }
 
-section.jumbotron {
-	background-image: url("../images/banana-hero.jpg");
-	background-color: lightyellow;
-	background-size: cover;
-	margin-bottom: 0px;
-	padding: 54px 0px;
-	color: black;
-}
-
-header {
-	background: white;
-}
-header h1{
-	font-family: "Open Sans", sans-serif;
-	margin-top:0;
-	display: inline;
-	float:left;
-}
 nav {
-	background:white;
+	background:#FFBF00;
 }
-
 nav a{
 	font-size: 1.3em;
 }
 .nav-pills > li > a{
+	color: white;
 	border-radius:0px;
 }
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
-	color: #f2f7ff;
-    background-color: lightblue;
+	color: white;
+    background-color: #857237;
 }
 .nav > li > a:hover, .nav > li > a:focus {
     text-decoration: none;
-    background-color: #f2f7ff;
+    background-color: #857237;
 }
+
+section.jumbotron {
+	height:300px;
+	margin: 0px;
+	padding: 100px 0px;
+	background: linear-gradient(
+		rgba(255,191,0,.4),
+		rgba(255,191,0,.4)), 
+		url("../images/banana-hero.jpg");
+	background-color: #FFFABF;
+	background-size: cover;
+	background-position:center;
+}
+section.jumbotron *{
+	margin:0;
+	padding: 0 20px;
+	color: white;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 800;
+}
+@media(max-width: 767px){
+	.jumbotron h1{
+    	font-size: 48px;
+	}
+}
+
 section.recipes.row.container-fluid{
 	margin:0px;
 	padding:0px;
 }
-
 article.recipe{
-	background-color:lightblue;
-	border: 2px white solid;
-	height: 270px;
+	height: 250px;
+	border: 2px rgba(255,191,0,.4) solid;
+	background-color:#FFFABF;
+	color: #6C5100;
+}
+article.recipe h2{
+	margin: 20px 5px 10px 5px;
+	border-bottom: 2px #735600 solid;
+}
+article.recipe ul{
+	font-size: 16px;
+}
+article:hover{
+	background: #FFF9E9;
+}
+span.glyphicon-heart-empty{
+/*	display: none;*/
+	float:right;
+	color:#6C5100;
+}
+/*article:hover ~ span.glyphicon-heart-empty{
+	display: block;
+}*/
+span.glyphicon-heart-empty:hover{
+	color:#FA0058;
 }
 
-article:hover{
-
+@media(max-width: 767px){
+	article.recipe h2{
+    	font-size: 30px;
+	}
+}
+@media(max-width: 767px){
+	article.recipe ul{
+    	font-size: 18px;
+	}
 }
 
 footer{
+	margin: 100px 0 0 0;
 	font-size: 10px;
-	align-self: flex-end;
 	position: absolute;
 }

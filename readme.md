@@ -1,6 +1,14 @@
-# Smoothie recipes
+# Description:
 
-## Instructions
+Kenworthe experimenting with responsive CSS and flexbox.
+
+## Assignment description below: 
+
+___________________________________
+
+### Smoothie recipes
+
+### Instructions
 
 Clone this repository and test that you can see the Smoothie Recipes in your browser:
 
@@ -21,7 +29,3 @@ Try some of the following:
 * Change the font family to something fun (like _fantasy_)
 * Use Flexbox or a grid system (such as Twitter Bootstrap) to put your recipes side-by-side
 * Make it responsive
-
-Here is a sample solution:
-
-![Screen Shot](images/screen-shot.png)
